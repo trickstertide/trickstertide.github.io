@@ -29,72 +29,100 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="site"><div class="wrap">
-<a class="brand" href="/"><svg viewBox="0 0 96 96" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><rect width="96" height="96" rx="20" fill="#0A0A0C"/><path d="M22 34h52c0 9-7 15-17 15H39c-9 0-17-6-17-15z" fill="#D4FF3A"/><path d="M38 47h20l3 8H35z" fill="#D4FF3A"/><rect x="26" y="55" width="44" height="18" rx="3" fill="#D4FF3A"/><path d="M62 14l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#FF6B3D"/></svg><span>trickstertide</span></a>
-<nav aria-label="Main"><ul><li><a href="/setsmith/" aria-current="page">Setsmith</a></li><li><a href="/setsmith/support/">Support</a></li></ul></nav>
+<a class="brand" href="/setsmith/"><svg class="anvil" viewBox="0 0 200 140" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path class="a" d="M20 30 L180 30 Q180 58 130 62 L130 92 L158 92 L158 118 L42 118 L42 92 L70 92 L70 62 Q30 58 20 30 Z"/><path class="s" d="M152 0 L158 12 L170 18 L158 24 L152 36 L146 24 L134 18 L146 12 Z"/></svg><span>Setsmith</span></a>
+<nav aria-label="Main"><ul>
+<li><a class="nav-opt" href="#progress">What it does</a></li>
+<li><a class="nav-opt" href="#faq">Questions</a></li>
+<li><a class="nav-opt" href="/setsmith/support/">Support</a></li>
+<li><a class="nav-cta" href="#join">Request an invite</a></li>
+</ul></nav>
 </div></header>
-<main id="main"><div class="wrap">
-<section class="hero" aria-labelledby="top">
-<div>
-<div class="wordmark"><svg viewBox="0 0 96 96" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><rect width="96" height="96" rx="20" fill="#0A0A0C"/><path d="M22 34h52c0 9-7 15-17 15H39c-9 0-17-6-17-15z" fill="#D4FF3A"/><path d="M38 47h20l3 8H35z" fill="#D4FF3A"/><rect x="26" y="55" width="44" height="18" rx="3" fill="#D4FF3A"/><path d="M62 14l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" fill="#FF6B3D"/></svg><h1 id="top">Setsmith</h1></div>
-<p class="tag" style="margin-top:16px">See what your week of lifting actually did.</p>
-<p class="lead">Setsmith shows what you did last time and what to aim for today. Free, no account, no ads, Android only for now.</p>
-<div class="actions"><a class="btn primary" href="#closed-test">Join the closed test</a><a class="btn secondary" href="/setsmith/privacy/">Privacy</a></div>
+<main id="main">
+
+<section class="hero wrap" aria-labelledby="top">
+<p class="eyebrow">A gym log for people who count their sets</p>
+<h1 id="top">See what your week <em>actually</em> did.</h1>
+<div class="hero-row">
+<div class="chart">
+<div class="bars" role="img" aria-label="Example chart: weekly working sets per muscle against a target band. Chest, lats and quads are in range; side delts and calves are low. Example only; targets differ by muscle.">
+<div class="bar b1"><span class="lab">Chest</span><div class="track"><div class="band"></div><div class="fill"></div></div><span class="num">13</span></div>
+<div class="bar b2"><span class="lab">Lats</span><div class="track"><div class="band"></div><div class="fill"></div></div><span class="num">15</span></div>
+<div class="bar b3"><span class="lab">Quads</span><div class="track"><div class="band"></div><div class="fill"></div></div><span class="num">12</span></div>
+<div class="bar b4"><span class="lab">Side delts</span><div class="track"><div class="band"></div><div class="fill low"></div></div><span class="num low">5</span></div>
+<div class="bar b5"><span class="lab">Calves</span><div class="track"><div class="band"></div><div class="fill low"></div></div><span class="num low">3</span></div>
 </div>
-<div class="hero-shot"><img src="/assets/phone-1.webp" width="540" height="960" alt="Progress screen: body map and bars for weekly sets per muscle, showing which are low" decoding="async"></div>
+<p class="chart-note">Example week, made-up numbers. Targets differ by muscle, and some muscles are never flagged. Orange means below that muscle's target.</p>
+</div>
+<div class="cta">
+<a class="btn primary big" href="#join">Request an invite</a>
+<p>Google Play closed test. Android phones.</p>
+</div>
+</div>
 </section>
 
-<h2>See it in use</h2>
-<ul class="shots" role="region" aria-label="Setsmith screenshots" tabindex="0">
-<li><figure><img class="shot" src="/assets/phone-2.webp" width="540" height="960" alt="Workout screen: Bench Press with last time and today's target pre-filled for each set" loading="lazy" decoding="async"><figcaption>Last time, then today's target</figcaption></figure></li>
-<li><figure><img class="shot" src="/assets/phone-3.webp" width="540" height="960" alt="3D exercise guide with the muscles the lift works" loading="lazy" decoding="async"><figcaption>3D guides for 100+ lifts</figcaption></figure></li>
-<li><figure><img class="shot" src="/assets/phone-4.webp" width="540" height="960" alt="Weekly check-in: what moved and what stalled" loading="lazy" decoding="async"><figcaption>Weekly check-in</figcaption></figure></li>
-<li><figure><img class="shot" src="/assets/phone-5.webp" width="540" height="960" alt="Import screen for a Strong or Hevy CSV export" loading="lazy" decoding="async"><figcaption>Import from Strong or Hevy</figcaption></figure></li>
-</ul>
+<section class="strip" aria-label="Basics"><ul class="wrap">
+<li>Free</li><li>No account</li><li>No ads</li><li>Data stays on your phone</li><li>Android only for now</li>
+</ul></section>
 
-<h2>What it does</h2>
-<ul class="grid two">
-<li class="card"><h3>Weekly sets per muscle</h3><p>Hard sets against a target range, so you can see what is low.</p></li>
-<li class="card"><h3>Last time, then today's target</h3><p>Pre-filled, a few more reps first, then a little more weight.</p></li>
-<li class="card"><h3>3D guides for 100+ lifts</h3><p>Step through each lift with the muscles it works. Custom exercises have none.</p></li>
-<li class="card"><h3>Weekly check-in</h3><p>What moved and what stalled.</p></li>
-<li class="card"><h3>Built for the gym</h3><p>Rest timer notification (allow notifications; can arrive a little late on some phones), edit finished workouts, body weight log with Undo.</p></li>
-<li class="card"><h3>Switch from Strong or Hevy</h3><p>Import their CSV export. Assisted, cardio and rest rows are skipped. Other apps (FitNotes etc.) are not supported yet.</p></li>
-</ul>
-<p class="trust"><strong>No account, no ads, no analytics in this build. Data stays on your phone until you export it.</strong> This site sets no cookies and tracks no one.</p>
+<section class="manifesto wrap"><p>Small sets.<br>Every week.<br><span>Don't stop.</span></p></section>
 
-<h2>How it works</h2>
-<ol class="grid steps">
-<li class="card"><h3>Pick a plan</h3><p>Start a workout from one of your plans.</p></li>
-<li class="card"><h3>Log sets, see last time</h3><p>Each set shows last time and today's target, pre-filled.</p></li>
-<li class="card"><h3>Check your weekly sets</h3><p>See hard sets per muscle against a target range.</p></li>
-</ol>
+<section id="progress" class="progress wrap" aria-labelledby="progress-h">
+<div class="head">
+<h2 id="progress-h">Weekly sets per muscle. See what is low.</h2>
+<p>Your working sets for every muscle against a target range. Warm-ups are kept apart, so the numbers stay honest.</p>
+</div>
+<div class="phone"><img src="/assets/app-progress.webp" width="600" height="1287" alt="Setsmith Progress screen: weekly sets per muscle on a body map and as bars against target bands" decoding="async"></div>
+<div class="list"><dl class="points">
+<div><dt>Last time, then today's target</dt><dd>Pre-filled, a few more reps first, then a little more weight.</dd></div>
+<div><dt>3D guides for 100+ lifts</dt><dd>Step through each lift with the muscles it works. Custom exercises have none.</dd></div>
+<div><dt>Weekly check-in</dt><dd>What moved and what stalled.</dd></div>
+<div><dt>Switch from Strong or Hevy</dt><dd>Import their CSV export. Assisted, cardio and rest rows are skipped. Other apps (FitNotes etc.) are not supported yet.</dd></div>
+</dl></div>
+</section>
 
-<section id="closed-test" aria-labelledby="ct" style="scroll-margin-top:16px">
-<h2 id="ct">Join the closed test</h2>
-<div class="card surface-accent">
+<section class="shots wrap" aria-label="More screens"><ul>
+<li><figure><div class="crop"><img src="/assets/app-workout.webp" width="600" height="1287" alt="Workout screen: Bench Press with last time and today's target pre-filled for each set" loading="lazy" decoding="async"></div><figcaption><strong>Last time, then today's target.</strong><span>Each set shows last time and today's target, pre-filled.</span></figcaption></figure></li>
+<li><figure><div class="crop"><img src="/assets/app-exercise.webp" width="600" height="1287" alt="3D exercise guide with the muscles the lift works" loading="lazy" decoding="async"></div><figcaption><strong>3D guides for 100+ lifts.</strong><span>Step through each lift with the muscles it works. Custom exercises have none.</span></figcaption></figure></li>
+<li><figure><div class="crop"><img src="/assets/app-checkin.webp" width="600" height="1287" alt="Weekly check-in: what moved and what stalled" loading="lazy" decoding="async"></div><figcaption><strong>Weekly check-in.</strong><span>What moved and what stalled.</span></figcaption></figure></li>
+<li><figure><div class="crop"><img src="/assets/app-import.webp" width="600" height="1287" alt="Import screen for a Strong or Hevy CSV export" loading="lazy" decoding="async"></div><figcaption><strong>Switch from Strong or Hevy.</strong><span>Assisted, cardio and rest rows are skipped.</span></figcaption></figure></li>
+</ul></section>
+
+<div class="flourish" aria-hidden="true"><svg class="anvil" viewBox="0 0 200 140" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg"><path class="a" d="M20 30 L180 30 Q180 58 130 62 L130 92 L158 92 L158 118 L42 118 L42 92 L70 92 L70 62 Q30 58 20 30 Z"/><path class="s" d="M152 0 L158 12 L170 18 L158 24 L152 36 L146 24 L134 18 L146 12 Z"/></svg></div>
+
+<section id="join" class="join" aria-labelledby="join-h"><div id="closed-test"></div><div class="wrap">
+<div class="copy">
+<h2 id="join-h">Join the closed test.</h2>
 <p>Setsmith is in Google Play closed testing (early build). The public join link is not ready yet, so ask for an invite by email.</p>
+<details class="how"><summary>How it works</summary><div>
 <ol>
-<li>Email us from the Google account your Android phone uses. <a href="mailto:trickstertide@gmail.com?subject=Setsmith%20test%20invite&body=Gmail%20address%20for%20Google%20Play%3A%0AAndroid%20phone%20model%3A%0AApp%20I%20use%20now%20%28Strong%2C%20Hevy%2C%20FitNotes%2C%20other%29%3A%0ATimes%20I%20lift%20per%20week%3A%0A">Request an invite</a></li>
+<li>Email us from the Google account your Android phone uses.</li>
 <li>We add your address to the test and send you a link. Open it on your phone, accept, install from Play.</li>
 <li>Lift as you normally do for a couple of weeks, send bugs and ideas from Settings &gt; Send feedback.</li>
 </ol>
-<p>Put in the email: the Gmail/Google address Play uses, phone model, the app you use now, lifts per week. We use it only to send the invite. Testers need an Android phone on Android 7.0 or newer; we are looking for lifters, especially Strong, Hevy or FitNotes users.</p>
-<p>The app is portrait-only, so some tablets and Chromebooks will not be offered it on Google Play. iPhone: not yet.</p>
-<p><a class="btn primary" href="mailto:trickstertide@gmail.com?subject=Setsmith%20test%20invite&body=Gmail%20address%20for%20Google%20Play%3A%0AAndroid%20phone%20model%3A%0AApp%20I%20use%20now%20%28Strong%2C%20Hevy%2C%20FitNotes%2C%20other%29%3A%0ATimes%20I%20lift%20per%20week%3A%0A">Request an invite</a></p>
-<p class="muted" style="margin:16px 0 0">Tip: use the Google account you use on Play.</p>
+<p class="fine">Put in the email: the Gmail/Google address Play uses, phone model, the app you use now, lifts per week. We use it only to send the invite. Testers need an Android phone on Android 7.0 or newer; we are looking for lifters, especially Strong, Hevy or FitNotes users.</p>
+<p class="fine">The app is portrait-only, so some tablets and Chromebooks will not be offered it on Google Play. iPhone: not yet.</p>
+</div></details>
+</div>
+<div class="act">
+<a class="btn primary big" href="mailto:trickstertide@gmail.com?subject=Setsmith%20test%20invite&amp;body=Gmail%20address%20for%20Google%20Play%3A%0AAndroid%20phone%20model%3A%0AApp%20I%20use%20now%20%28Strong%2C%20Hevy%2C%20FitNotes%2C%20other%29%3A%0ATimes%20I%20lift%20per%20week%3A%0A">Request an invite</a>
+<p>We use your address only to send the invite. Tip: use the Google account you use on Play.</p>
+</div>
 </div></section>
 
-<h2>Questions</h2>
-<div class="text">
+<section id="faq" class="faq wrap" aria-labelledby="faq-h">
+<h2 id="faq-h">Questions</h2>
+<div class="faq-list">
 <details><summary>Is it free?</summary><div><p>Yes, free to use, no ads. No purchases in this build.</p></div></details>
 <details><summary>Where is my data?</summary><div><p>On your phone. Nothing is sent to us unless you email feedback. You can export a backup file and keep it wherever you choose. Data stays on your phone until you export it.</p></div></details>
 <details><summary>Can I import from Strong or Hevy?</summary><div><p>Yes, from their CSV export (Settings &gt; Import from Strong or Hevy). Assisted, cardio and rest rows are skipped. Other apps (FitNotes etc.) are not supported yet.</p></div></details>
-<p><a href="/setsmith/support/">All questions and support</a></p>
 </div>
-</div></main>
+<p class="more"><a href="/setsmith/support/">All questions and support</a></p>
+</section>
+
+</main>
 <footer class="site"><div class="wrap">
 <ul><li><a href="/setsmith/privacy/">Privacy</a></li><li><a href="/setsmith/support/">Support</a></li><li><a href="mailto:trickstertide@gmail.com">Contact</a></li><li><a href="/">trickstertide</a></li></ul>
-<p>Early test version. Setsmith is a logging tool, not medical advice.</p>
+<p>Early test version. Setsmith is a logging tool, not medical advice. This site sets no cookies and tracks no one.</p>
 </div></footer>
 </body>
 </html>
